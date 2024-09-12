@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="RPSgme.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose:</h1>
+        <div class="choices">        
+            <div class="choice-container">
+                <img src="Rock.png" alt="Rock" id="rock" class="choice-img">
+                <p class="choice-label">Rock</p>
+            </div>
+        
+            <div class="choice-container">
+                <img src="paper.png" alt="Paper" id="paper" class="choice-img">
+                <p class="choice-label">Paper</p>
+            </div>
+        
+            <div class="choice-container">
+                <img src="scissors.png" alt="Scissors" id="scissors" class="choice-img">
+                <p class="choice-label">Scissors</p>
+            </div>
+        </div>
+        
+            <div class="result">
+                <h2 id="result-text"></h2>
+                <div id="user-choice" class="choice-display"></div>
+                <div id="computer-choice" class="choice-display"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="RPSgame.js"></script>
+</body>
+</html>
